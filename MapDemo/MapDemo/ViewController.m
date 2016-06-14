@@ -28,8 +28,6 @@
     //代理
     mapView.delegate = self;
     [self.view addSubview:mapView];
-    //修改了一点哦
-    //又一次修改了哦
     
 }
 //地图区域将要改变
