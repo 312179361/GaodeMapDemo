@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450C46611D11468A00534533 /* heatMapData.json in Resources */ = {isa = PBXBuildFile; fileRef = 450C46601D11468A00534533 /* heatMapData.json */; };
 		45393CE21D0F9DB5009AA51D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45393CE11D0F9DB5009AA51D /* main.m */; };
 		45393CE51D0F9DB5009AA51D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45393CE41D0F9DB5009AA51D /* AppDelegate.m */; };
 		45393CE81D0F9DB5009AA51D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45393CE71D0F9DB5009AA51D /* ViewController.m */; };
@@ -28,9 +29,15 @@
 		45393D111D0F9FEA009AA51D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 45393D101D0F9FEA009AA51D /* libc++.tbd */; };
 		45393D131D0F9FF0009AA51D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45393D121D0F9FF0009AA51D /* Security.framework */; };
 		45393D151D0FA13D009AA51D /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45393D141D0FA13D009AA51D /* AMapFoundationKit.framework */; };
+		45C429201D128C5B00368350 /* T-shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C4291F1D128C5B00368350 /* T-shirt.png */; };
+		45C429221D12900700368350 /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C429211D12900700368350 /* money.png */; };
+		45C429251D12967C00368350 /* CustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C429241D12967C00368350 /* CustomCalloutView.m */; };
+		45C429281D12991800368350 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C429271D12991800368350 /* CustomAnnotationView.m */; };
+		45C4292A1D129C8100368350 /* tianAnMen.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C429291D129C8100368350 /* tianAnMen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450C46601D11468A00534533 /* heatMapData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heatMapData.json; sourceTree = "<group>"; };
 		45393CDD1D0F9DB5009AA51D /* MapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45393CE11D0F9DB5009AA51D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45393CE31D0F9DB5009AA51D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +63,13 @@
 		45393D101D0F9FEA009AA51D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		45393D121D0F9FF0009AA51D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		45393D141D0FA13D009AA51D /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		45C4291F1D128C5B00368350 /* T-shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "T-shirt.png"; sourceTree = "<group>"; };
+		45C429211D12900700368350 /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money.png; sourceTree = "<group>"; };
+		45C429231D12967C00368350 /* CustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCalloutView.h; sourceTree = "<group>"; };
+		45C429241D12967C00368350 /* CustomCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutView.m; sourceTree = "<group>"; };
+		45C429261D12991800368350 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		45C429271D12991800368350 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		45C429291D129C8100368350 /* tianAnMen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tianAnMen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +133,13 @@
 				45393CE41D0F9DB5009AA51D /* AppDelegate.m */,
 				45393CE61D0F9DB5009AA51D /* ViewController.h */,
 				45393CE71D0F9DB5009AA51D /* ViewController.m */,
+				45C429261D12991800368350 /* CustomAnnotationView.h */,
+				45C429271D12991800368350 /* CustomAnnotationView.m */,
+				45C429231D12967C00368350 /* CustomCalloutView.h */,
+				45C429241D12967C00368350 /* CustomCalloutView.m */,
+				45C429211D12900700368350 /* money.png */,
+				45C4291F1D128C5B00368350 /* T-shirt.png */,
+				45C429291D129C8100368350 /* tianAnMen.png */,
 				45393CE91D0F9DB5009AA51D /* Main.storyboard */,
 				45393CEC1D0F9DB5009AA51D /* Assets.xcassets */,
 				45393CEE1D0F9DB5009AA51D /* LaunchScreen.storyboard */,
@@ -139,6 +160,7 @@
 		45393CF71D0F9EFF009AA51D /* MapSDK */ = {
 			isa = PBXGroup;
 			children = (
+				450C46601D11468A00534533 /* heatMapData.json */,
 				45393CFA1D0F9F50009AA51D /* AMap.bundle */,
 				45393D141D0FA13D009AA51D /* AMapFoundationKit.framework */,
 				45393CF81D0F9F09009AA51D /* MAMapKit.framework */,
@@ -205,7 +227,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				45393CF01D0F9DB5009AA51D /* LaunchScreen.storyboard in Resources */,
+				45C429221D12900700368350 /* money.png in Resources */,
+				450C46611D11468A00534533 /* heatMapData.json in Resources */,
+				45C4292A1D129C8100368350 /* tianAnMen.png in Resources */,
 				45393CED1D0F9DB5009AA51D /* Assets.xcassets in Resources */,
+				45C429201D128C5B00368350 /* T-shirt.png in Resources */,
 				45393CFB1D0F9F50009AA51D /* AMap.bundle in Resources */,
 				45393CEB1D0F9DB5009AA51D /* Main.storyboard in Resources */,
 			);
@@ -218,7 +244,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C429251D12967C00368350 /* CustomCalloutView.m in Sources */,
 				45393CE81D0F9DB5009AA51D /* ViewController.m in Sources */,
+				45C429281D12991800368350 /* CustomAnnotationView.m in Sources */,
 				45393CE51D0F9DB5009AA51D /* AppDelegate.m in Sources */,
 				45393CE21D0F9DB5009AA51D /* main.m in Sources */,
 			);
@@ -379,6 +407,7 @@
 				45393CF61D0F9DB5009AA51D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
