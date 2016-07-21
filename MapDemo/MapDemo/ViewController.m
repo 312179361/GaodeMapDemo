@@ -47,6 +47,12 @@
     //添加热力图
 //    [self addHeatMapAction];
     
+    //显示用户位置，即开启定位功能
+    tempMapView.showsUserLocation = YES;
+    //定位图层的样式
+    tempMapView.userTrackingMode = MAUserTrackingModeFollow;
+
+    
 }
 
 //设置地图控件
@@ -238,6 +244,39 @@
     return nil;
 }
 
+
+#pragma mark - 定位--更新位置代理 -
+//只要用户的位置更新，就会执行这个代理方法
+- (void)mapView:(MAMapView *)mapView didUpdateUserLocation:(MAUserLocation *)userLocation updatingLocation:(BOOL)updatingLocation {
+    
+    if (updatingLocation == YES) {
+        NSLog(@"latitude:%f,,longitude:%f",userLocation.coordinate.latitude,userLocation.coordinate.longitude);
+    }
+}
+//当mapView新添加annotation views时调用此接口
+- (void)mapView:(MAMapView *)mapView didAddAnnotationViews:(NSArray *)views {
+    MAAnnotationView *view = views[0];
+    //如果是用户位置的标注，
+    if ([view.annotation isKindOfClass:[MAUserLocation class]]) {
+        //精度圈演示
+        MAUserLocationRepresentation *repre = [[MAUserLocationRepresentation alloc]init];
+        //精度圈填充颜色
+        repre.fillColor = [UIColor colorWithRed:0.9 green:0.1 blue:0.1 alpha:0.3];
+        //精度圈边框颜色
+        repre.strokeColor = [UIColor colorWithRed:0.1 green:0.1 blue:0.9 alpha:1.0];
+        //定位图片，
+        repre.image = [UIImage imageNamed:@"userPosition.png"];
+        //精度圈的边线宽度
+        repre.lineWidth = 3;
+        //精度圈的虚线演示
+        repre.lineDashPattern = @[@6, @3];
+        //更新样式
+        [tempMapView updateUserLocationRepresentation:repre];
+        
+        view.calloutOffset = CGPointMake(0, 0);
+    }
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

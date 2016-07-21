@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450A6D591D264FB600AF609C /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450A6D581D264FB600AF609C /* AMapSearchKit.framework */; };
 		450C46611D11468A00534533 /* heatMapData.json in Resources */ = {isa = PBXBuildFile; fileRef = 450C46601D11468A00534533 /* heatMapData.json */; };
 		45393CE21D0F9DB5009AA51D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45393CE11D0F9DB5009AA51D /* main.m */; };
 		45393CE51D0F9DB5009AA51D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45393CE41D0F9DB5009AA51D /* AppDelegate.m */; };
@@ -29,14 +30,17 @@
 		45393D111D0F9FEA009AA51D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 45393D101D0F9FEA009AA51D /* libc++.tbd */; };
 		45393D131D0F9FF0009AA51D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45393D121D0F9FF0009AA51D /* Security.framework */; };
 		45393D151D0FA13D009AA51D /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45393D141D0FA13D009AA51D /* AMapFoundationKit.framework */; };
+		454D82BE1D17CFCF00C31AA4 /* userPosition.png in Resources */ = {isa = PBXBuildFile; fileRef = 454D82BD1D17CFCF00C31AA4 /* userPosition.png */; };
 		45C429201D128C5B00368350 /* T-shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C4291F1D128C5B00368350 /* T-shirt.png */; };
 		45C429221D12900700368350 /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C429211D12900700368350 /* money.png */; };
 		45C429251D12967C00368350 /* CustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C429241D12967C00368350 /* CustomCalloutView.m */; };
 		45C429281D12991800368350 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C429271D12991800368350 /* CustomAnnotationView.m */; };
 		45C4292A1D129C8100368350 /* tianAnMen.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C429291D129C8100368350 /* tianAnMen.png */; };
+		45DF3D6D1D1BD05B003B8CFE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DF3D6C1D1BD05B003B8CFE /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450A6D581D264FB600AF609C /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
 		450C46601D11468A00534533 /* heatMapData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heatMapData.json; sourceTree = "<group>"; };
 		45393CDD1D0F9DB5009AA51D /* MapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45393CE11D0F9DB5009AA51D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +67,7 @@
 		45393D101D0F9FEA009AA51D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		45393D121D0F9FF0009AA51D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		45393D141D0FA13D009AA51D /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		454D82BD1D17CFCF00C31AA4 /* userPosition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPosition.png; sourceTree = "<group>"; };
 		45C4291F1D128C5B00368350 /* T-shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "T-shirt.png"; sourceTree = "<group>"; };
 		45C429211D12900700368350 /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money.png; sourceTree = "<group>"; };
 		45C429231D12967C00368350 /* CustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCalloutView.h; sourceTree = "<group>"; };
@@ -70,6 +75,8 @@
 		45C429261D12991800368350 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
 		45C429271D12991800368350 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
 		45C429291D129C8100368350 /* tianAnMen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tianAnMen.png; sourceTree = "<group>"; };
+		45DF3D6B1D1BD05B003B8CFE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		45DF3D6C1D1BD05B003B8CFE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +95,7 @@
 				45393D031D0F9FB3009AA51D /* QuartzCore.framework in Frameworks */,
 				45393D011D0F9FAA009AA51D /* CoreGraphics.framework in Frameworks */,
 				45393CFF1D0F9FA4009AA51D /* Foundation.framework in Frameworks */,
+				450A6D591D264FB600AF609C /* AMapSearchKit.framework in Frameworks */,
 				45393D151D0FA13D009AA51D /* AMapFoundationKit.framework in Frameworks */,
 				45393CFD1D0F9F9D009AA51D /* UIKit.framework in Frameworks */,
 				45393CF91D0F9F09009AA51D /* MAMapKit.framework in Frameworks */,
@@ -133,12 +141,15 @@
 				45393CE41D0F9DB5009AA51D /* AppDelegate.m */,
 				45393CE61D0F9DB5009AA51D /* ViewController.h */,
 				45393CE71D0F9DB5009AA51D /* ViewController.m */,
+				45DF3D6B1D1BD05B003B8CFE /* SecondViewController.h */,
+				45DF3D6C1D1BD05B003B8CFE /* SecondViewController.m */,
 				45C429261D12991800368350 /* CustomAnnotationView.h */,
 				45C429271D12991800368350 /* CustomAnnotationView.m */,
 				45C429231D12967C00368350 /* CustomCalloutView.h */,
 				45C429241D12967C00368350 /* CustomCalloutView.m */,
 				45C429211D12900700368350 /* money.png */,
 				45C4291F1D128C5B00368350 /* T-shirt.png */,
+				454D82BD1D17CFCF00C31AA4 /* userPosition.png */,
 				45C429291D129C8100368350 /* tianAnMen.png */,
 				45393CE91D0F9DB5009AA51D /* Main.storyboard */,
 				45393CEC1D0F9DB5009AA51D /* Assets.xcassets */,
@@ -162,6 +173,7 @@
 			children = (
 				450C46601D11468A00534533 /* heatMapData.json */,
 				45393CFA1D0F9F50009AA51D /* AMap.bundle */,
+				450A6D581D264FB600AF609C /* AMapSearchKit.framework */,
 				45393D141D0FA13D009AA51D /* AMapFoundationKit.framework */,
 				45393CF81D0F9F09009AA51D /* MAMapKit.framework */,
 			);
@@ -227,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45393CF01D0F9DB5009AA51D /* LaunchScreen.storyboard in Resources */,
+				454D82BE1D17CFCF00C31AA4 /* userPosition.png in Resources */,
 				45C429221D12900700368350 /* money.png in Resources */,
 				450C46611D11468A00534533 /* heatMapData.json in Resources */,
 				45C4292A1D129C8100368350 /* tianAnMen.png in Resources */,
@@ -244,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DF3D6D1D1BD05B003B8CFE /* SecondViewController.m in Sources */,
 				45C429251D12967C00368350 /* CustomCalloutView.m in Sources */,
 				45393CE81D0F9DB5009AA51D /* ViewController.m in Sources */,
 				45C429281D12991800368350 /* CustomAnnotationView.m in Sources */,
@@ -360,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MapDemo/MapSDK",
@@ -376,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MapDemo/MapSDK",
